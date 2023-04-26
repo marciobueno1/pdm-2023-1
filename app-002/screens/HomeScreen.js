@@ -34,6 +34,12 @@ export const HomeScreen = ({ navigation }) => {
               });
             }}
           />
+          <Button
+            title="Star Wars People"
+            onPress={() => {
+              navigation.navigate("People");
+            }}
+          />
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
