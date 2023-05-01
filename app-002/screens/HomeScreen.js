@@ -40,6 +40,12 @@ export const HomeScreen = ({ navigation }) => {
               navigation.navigate("People");
             }}
           />
+          <Button
+            title="Lista de Tarefas"
+            onPress={() => {
+              navigation.navigate("Task");
+            }}
+          />
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
